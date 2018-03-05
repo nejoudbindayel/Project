@@ -1,20 +1,28 @@
-h1 {
 
-color:Black;
-font-size: 20px;
-margin-top: 20px
+.images {position: relative;
+  text-align: center;
+
 }
+.p1 {  position: absolute;
+  top: 0;
+  left:0;
+  z-index: 1;
+ width:500px}
 
-.p1 { width:200px}
+ h1 {
 
+color:#fefbb8;
+position: absolute;
+    top: 80%;
+    left: 50%;
+    font-family: impact;
+    font-size:70px;
+    transform: translate(-50%, -50%);
+ }
+ .img-thimbnail {
 
-@media (min-width:576px) {
-.p1 { width:500px}
-  h1 {
+width: 100%;
+height:auto;
 
-  color:#009933;
-  margin: text-center;
-font-size: 40px;
-  }
 
  }
